@@ -5,21 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
 </head>
-<body>
-    <ul>
-        <li><a href="../index.html">Strona główna</a></li>
-        <li><a href="../O-mnie/index.html">O mnie</a></li>
-        <li><a href="../kontakt/index.html">Kontakt</a></li>
-    </ul>
- 
-    <h1>Kontakt</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam, rerum eaque similique suscipit exercitationem voluptatibus recusandae, reprehenderit neque mollitia repellendus optio, quibusdam soluta voluptatem accusantium fugiat asperiores sapiente. Voluptatum.</p>
-        <ul>
-            <li>Imię</li>
-            <li>Nazwisko</li>
-            <li>zmyslony@mail.com</li>
 
-        </ul>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Strona główna</a></li>
+                <li><a href="../O-mnie/index.html">O mnie</a></li>
+                <li><a href="../kontakt/index.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Kontakt</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam, rerum eaque similique suscipit exercitationem voluptatibus recusandae, reprehenderit neque mollitia repellendus optio, quibusdam soluta voluptatem accusantium fugiat asperiores sapiente. Voluptatum.</p>
+            <ul>
+                <li>Imię</li>
+                <li>Nazwisko</li>
+                <li>zmyslony@mail.com</li>
+    
+            </ul>
+        </section>
+        <section>
+            <form action="#">
+               <div>
+                     <label>
+                         Imię:
+                         <input type="text" name="FirstName" placeholder="Podaj Imię">
+                      </label>
+               </div>
+              
+               <div>
+                    <label>
+                        Nazwisko:
+                        <input type="text" name="Surname" placeholder="Podaj Nazwisko">
+                    </label>
+               </div>
+             
+               <div>
+                    <label>
+                        Numer telefonu:
+                        <input type="number" name="PhoneNumber" placeholder="Podaj numer komórkowy">
+                    </label>
+               </div>
+               
+               <div>
+                    <label>
+                        Mail:
+                        <input type="text" name="email" placeholder="Podaj mail prywatny">
+                    </label>
+               </div>
+ 
+               <div>
+                    <label>
+                        Treść wiadomości:
+
+                        <textarea name="description" cols="30" rows="6"></textarea>
+                    
+                    </label>
+               </div>
+              
+               <div>
+                    <label>
+                      Kraj:
+                         <select name="country">
+                          <option value="PL">Polska</option>
+                          <option value="DE">Niemcy</option>
+                          <option value="PT">Portugalia</option>
+                         <option value="AR">Argentyna</option>
+                          <option value="MA">Maroko</option>
+                         </select>
+                 
+                     </label>
+                </div>
+                
+                <div>
+                    <label>
+                        <input type="checkbox" name="terms" placeholder="Podaj Nazwisko">
+                        Akceptuję regulamin
+                    </label>
+                </div>
+                <input type="submit">
+                
+            </form>
+        </section>
+    </main>
+  
+    <footer>
+        <p>Copyrights 2024</p>
+    </footer>
+   
         
 </body>
 </html>
